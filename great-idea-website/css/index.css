@@ -55,7 +55,6 @@ table {
 html, body {
 	height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	margin-left: 2%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,7 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	margin-left: 2%;
+	margin-right: 1%;
+}
+
 /* Navigation bar */
+
 .nav-bar a {
 	text-decoration: none;
 	color: gray;
@@ -100,10 +105,11 @@ h1, h2, h3, h4, h5 {
 	letter-spacing: 1px;
 	display: inline-block;
 	width: 45%;
+	margin-right: 5%;
 }
 
 .marketing-header p {
-	font-size: 400%;
+	font-size: 500%;
 }
 
 .marketing-button {
@@ -112,21 +118,55 @@ h1, h2, h3, h4, h5 {
 	text-decoration: none;
 	vertical-align: middle;
 	border: 1px solid black;
-	padding: 0 15%;
+	padding: 1% 5%;
 	color:black;
 	font-family: 'Times New Roman', Times, serif;
 }
 
 .logo-header-contents {
 	display: inline-block;
-	width: 50%;
+	width: 45%;
 	padding: 0 0 0 0;
 	vertical-align: middle;
 }
 
+header {
+	border-bottom: 1px solid black;
+}
+
 /* Content */
-.inner-p {
+.horizontal-third {
 	display: inline-block;
 	width: 30%;
 	margin-right: 3%;
 }
+
+.horizontal-half {
+	display: inline-block;
+	width: 43%;
+	margin-right: 6%;
+	margin-bottom: 2%;
+}
+
+.top-content {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.bottom-content {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+/* Contact */
