@@ -96,8 +96,8 @@ body {
 	vertical-align: middle;
 }
 
-/* Marketing Header */
-.marketing-header {
+/* Marketing header */
+.text-header-contents {
 	margin: 10% 0;
 	font-family: 'Bangers', cursive;
 	text-align: center;
@@ -109,11 +109,15 @@ body {
 	margin-bottom: 15%;
 }
 
-.marketing-header p {
+.text-header-contents p {
 	font-size: 700%;
 }
 
-.marketing-button {
+.text-header-contents h1 {
+	font-size: 500%;
+}
+
+.marketing-anchor {
 	font-size: 150%;
 	background: white;
 	text-decoration: none;
@@ -141,13 +145,13 @@ header {
 }
 
 /* Content */
-.horizontal-third {
+.triple-inline-block {
 	display: inline-block;
 	width: 30%;
 	margin-right: 3%;
 }
 
-.horizontal-half {
+.double-inline-block {
 	display: inline-block;
 	width: 43%;
 	margin-right: 6%;
