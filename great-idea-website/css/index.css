@@ -72,7 +72,7 @@ body {
 
 /* Navigation bar */
 .nav-bar {
-	white-space: nowrap;
+	/* white-space: nowrap; */
 	overflow: hidden;
 	background: white;
 	position: fixed;
@@ -109,10 +109,10 @@ body {
 }
 
 .logo {
-	/* margin: 0 0 0 5%; */
-	/* padding: 0 0 0 9%; */
 	vertical-align: middle;
 	display: inline-block;
+	width: 13%;
+	height: 13%;
 }
 
 /* Marketing header */
